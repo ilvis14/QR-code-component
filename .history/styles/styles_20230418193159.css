@@ -1,0 +1,25 @@
+@import "normalize.css";
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+.box{
+  margin: auto;
+  width: 50%;
+  border: 3px solid green;
+  padding: 10px;
+}
+
+.container{
+  
+}
+
+img{
+  width: 250px;
+}

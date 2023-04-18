@@ -23,7 +23,6 @@ body{
   flex-direction: column;
   align-items: center;
   height: 100vh;
-  background-image: url(/images/pexels-pixabay-509922.jpg);
 }
 
 section{
@@ -41,7 +40,7 @@ section{
   display: flex;
   justify-content: center;
   text-align: center;
-  position: relative;
+  position: absolute;
   top: 15%;
   background-color: var(--White);
   border-radius: 1rem;
@@ -50,6 +49,7 @@ section{
 .wrapper{
   width: 300px;
   padding: 1rem;
+  
 }
 
 .image{
@@ -73,4 +73,11 @@ p:nth-child(2){
 p{
   padding-left: 3px;
   padding-right: 3px;
+}
+
+
+@media screen and (max-width:768px) {
+  .wrapper{
+    width: 320px;
+  }
 }

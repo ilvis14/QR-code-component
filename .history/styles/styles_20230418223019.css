@@ -23,7 +23,6 @@ body{
   flex-direction: column;
   align-items: center;
   height: 100vh;
-  background-image: url(/images/pexels-pixabay-509922.jpg);
 }
 
 section{
@@ -32,7 +31,7 @@ section{
   align-items: inherit;
   height: 70vh;
   width: 90vw;
-  top: 15%;
+  margin-top: 5%;
   position: relative;
   background-color:#d8ecf2;
 }
@@ -41,8 +40,8 @@ section{
   display: flex;
   justify-content: center;
   text-align: center;
-  position: relative;
-  top: 15%;
+  position: absolute;
+  top: 20%;
   background-color: var(--White);
   border-radius: 1rem;
 }
@@ -50,6 +49,7 @@ section{
 .wrapper{
   width: 300px;
   padding: 1rem;
+  
 }
 
 .image{
@@ -73,4 +73,11 @@ p:nth-child(2){
 p{
   padding-left: 3px;
   padding-right: 3px;
+}
+
+
+@media screen and (max-width:768px) {
+  .wrapper{
+    width: 320px;
+  }
 }
